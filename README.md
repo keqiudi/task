@@ -1,13 +1,10 @@
 # task
 
-先进入cmake的build目录下
-cd cmake-build-debug-
+先进入cmake的build目录下：cd cmake-build-debug-
 
-执行
-make
+先执行：make
 
-生成可执行文件
-src
+生成可执行文件src
 
-直接执行
+再执行
 ./src
