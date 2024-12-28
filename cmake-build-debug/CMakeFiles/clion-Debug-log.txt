@@ -1,0 +1,16 @@
+C:\Users\keqiu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/keqiu/study/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/Users/keqiu/study/Qt/Tools/mingw1120_64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/Users/keqiu/study/Qt/Tools/mingw1120_64/bin/g++.exe -G "MinGW Makefiles" -S C:\Users\keqiu\Desktop\socket\src -B C:\Users\keqiu\Desktop\socket\src\cmake-build-debug
+-- The C compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/keqiu/study/Qt/Tools/mingw1120_64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (6.4s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+-- Build files have been written to: C:/Users/keqiu/Desktop/socket/src/cmake-build-debug

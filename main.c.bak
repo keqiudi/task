@@ -1,0 +1,56 @@
+
+#ifdef __cplusplus       
+#if __cplusplus
+extern "C"{                
+#endif
+#endif /* __cplusplus */
+
+
+#include <stdio.h>
+#include <semaphore.h>
+#include <signal.h>
+#include <pthread.h>
+#include <stdlib.h>             // for system()
+#include <sys/reboot.h>         // for reboot(RB_AUTOBOOT)
+#include <errno.h>
+#include <sys/stat.h> 
+#include <unistd.h>
+
+#include "main.h"
+#include "main_core.h"
+
+
+
+int a;
+
+
+int main_process()
+{
+	while(1)
+		printf("this is main_process\n");
+	
+	return 0;
+}
+
+void main()
+{
+
+	fork();
+
+	if
+		main_core();
+	else
+		main_process();
+
+}
+
+
+
+
+
+#ifdef __cplusplus
+#if __cplusplus
+}
+#endif
+#endif /* __cplusplus */
+
