@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/tmp/tmp.n1yQUF55fr/cmake-build-debug-"
+			"value" : "/home/keqiudi/myProject/cmake-build-debug-"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/tmp/tmp.n1yQUF55fr"
+			"value" : "/home/keqiudi/myProject"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1003,7 +1003,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/tmp/tmp.n1yQUF55fr/cmake-build-debug-"
+			"value" : "/home/keqiudi/myProject/cmake-build-debug-"
 		},
 		{
 			"name" : "src_IS_TOP_LEVEL",
@@ -1027,7 +1027,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/tmp/tmp.n1yQUF55fr"
+			"value" : "/home/keqiudi/myProject"
 		}
 	],
 	"kind" : "cache",

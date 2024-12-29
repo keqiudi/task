@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.n1yQUF55fr
+CMAKE_SOURCE_DIR = /home/keqiudi/myProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.n1yQUF55fr/cmake-build-debug-
+CMAKE_BINARY_DIR = /home/keqiudi/myProject/cmake-build-debug-
 
 # Include any dependencies generated for this target.
 include CMakeFiles/src.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/main.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/main.c.o: ../main.c
 CMakeFiles/src.dir/main.c.o: CMakeFiles/src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/src.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/src.dir/main.c.o -MF CMakeFiles/src.dir/main.c.o.d -o CMakeFiles/src.dir/main.c.o -c /tmp/tmp.n1yQUF55fr/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keqiudi/myProject/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/src.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/src.dir/main.c.o -MF CMakeFiles/src.dir/main.c.o.d -o CMakeFiles/src.dir/main.c.o -c /home/keqiudi/myProject/main.c
 
 CMakeFiles/src.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.n1yQUF55fr/main.c > CMakeFiles/src.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/keqiudi/myProject/main.c > CMakeFiles/src.dir/main.c.i
 
 CMakeFiles/src.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.n1yQUF55fr/main.c -o CMakeFiles/src.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/keqiudi/myProject/main.c -o CMakeFiles/src.dir/main.c.s
 
 CMakeFiles/src.dir/main_core.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/main_core.c.o: ../main_core.c
 CMakeFiles/src.dir/main_core.c.o: CMakeFiles/src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/src.dir/main_core.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/src.dir/main_core.c.o -MF CMakeFiles/src.dir/main_core.c.o.d -o CMakeFiles/src.dir/main_core.c.o -c /tmp/tmp.n1yQUF55fr/main_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keqiudi/myProject/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/src.dir/main_core.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/src.dir/main_core.c.o -MF CMakeFiles/src.dir/main_core.c.o.d -o CMakeFiles/src.dir/main_core.c.o -c /home/keqiudi/myProject/main_core.c
 
 CMakeFiles/src.dir/main_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/main_core.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.n1yQUF55fr/main_core.c > CMakeFiles/src.dir/main_core.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/keqiudi/myProject/main_core.c > CMakeFiles/src.dir/main_core.c.i
 
 CMakeFiles/src.dir/main_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/main_core.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.n1yQUF55fr/main_core.c -o CMakeFiles/src.dir/main_core.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/keqiudi/myProject/main_core.c -o CMakeFiles/src.dir/main_core.c.s
 
 CMakeFiles/src.dir/socket.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/socket.c.o: ../socket.c
 CMakeFiles/src.dir/socket.c.o: CMakeFiles/src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/src.dir/socket.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/src.dir/socket.c.o -MF CMakeFiles/src.dir/socket.c.o.d -o CMakeFiles/src.dir/socket.c.o -c /tmp/tmp.n1yQUF55fr/socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keqiudi/myProject/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/src.dir/socket.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/src.dir/socket.c.o -MF CMakeFiles/src.dir/socket.c.o.d -o CMakeFiles/src.dir/socket.c.o -c /home/keqiudi/myProject/socket.c
 
 CMakeFiles/src.dir/socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/socket.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.n1yQUF55fr/socket.c > CMakeFiles/src.dir/socket.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/keqiudi/myProject/socket.c > CMakeFiles/src.dir/socket.c.i
 
 CMakeFiles/src.dir/socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/socket.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.n1yQUF55fr/socket.c -o CMakeFiles/src.dir/socket.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/keqiudi/myProject/socket.c -o CMakeFiles/src.dir/socket.c.s
 
 CMakeFiles/src.dir/thread.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/thread.c.o: ../thread.c
 CMakeFiles/src.dir/thread.c.o: CMakeFiles/src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/src.dir/thread.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/src.dir/thread.c.o -MF CMakeFiles/src.dir/thread.c.o.d -o CMakeFiles/src.dir/thread.c.o -c /tmp/tmp.n1yQUF55fr/thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keqiudi/myProject/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/src.dir/thread.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/src.dir/thread.c.o -MF CMakeFiles/src.dir/thread.c.o.d -o CMakeFiles/src.dir/thread.c.o -c /home/keqiudi/myProject/thread.c
 
 CMakeFiles/src.dir/thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/thread.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.n1yQUF55fr/thread.c > CMakeFiles/src.dir/thread.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/keqiudi/myProject/thread.c > CMakeFiles/src.dir/thread.c.i
 
 CMakeFiles/src.dir/thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/thread.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.n1yQUF55fr/thread.c -o CMakeFiles/src.dir/thread.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/keqiudi/myProject/thread.c -o CMakeFiles/src.dir/thread.c.s
 
 # Object files for target src
 src_OBJECTS = \
@@ -141,7 +141,7 @@ src: CMakeFiles/src.dir/socket.c.o
 src: CMakeFiles/src.dir/thread.c.o
 src: CMakeFiles/src.dir/build.make
 src: CMakeFiles/src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable src"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/keqiudi/myProject/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable src"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/src.dir/clean:
 .PHONY : CMakeFiles/src.dir/clean
 
 CMakeFiles/src.dir/depend:
-	cd /tmp/tmp.n1yQUF55fr/cmake-build-debug- && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.n1yQUF55fr /tmp/tmp.n1yQUF55fr /tmp/tmp.n1yQUF55fr/cmake-build-debug- /tmp/tmp.n1yQUF55fr/cmake-build-debug- /tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles/src.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/keqiudi/myProject/cmake-build-debug- && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/keqiudi/myProject /home/keqiudi/myProject /home/keqiudi/myProject/cmake-build-debug- /home/keqiudi/myProject/cmake-build-debug- /home/keqiudi/myProject/cmake-build-debug-/CMakeFiles/src.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/src.dir/depend
 

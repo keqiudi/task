@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/tmp/tmp.n1yQUF55fr/main.c" "CMakeFiles/src.dir/main.c.o" "gcc" "CMakeFiles/src.dir/main.c.o.d"
-  "/tmp/tmp.n1yQUF55fr/main_core.c" "CMakeFiles/src.dir/main_core.c.o" "gcc" "CMakeFiles/src.dir/main_core.c.o.d"
-  "/tmp/tmp.n1yQUF55fr/socket.c" "CMakeFiles/src.dir/socket.c.o" "gcc" "CMakeFiles/src.dir/socket.c.o.d"
-  "/tmp/tmp.n1yQUF55fr/thread.c" "CMakeFiles/src.dir/thread.c.o" "gcc" "CMakeFiles/src.dir/thread.c.o.d"
+  "/home/keqiudi/myProject/main.c" "CMakeFiles/src.dir/main.c.o" "gcc" "CMakeFiles/src.dir/main.c.o.d"
+  "/home/keqiudi/myProject/main_core.c" "CMakeFiles/src.dir/main_core.c.o" "gcc" "CMakeFiles/src.dir/main_core.c.o.d"
+  "/home/keqiudi/myProject/socket.c" "CMakeFiles/src.dir/socket.c.o" "gcc" "CMakeFiles/src.dir/socket.c.o.d"
+  "/home/keqiudi/myProject/thread.c" "CMakeFiles/src.dir/thread.c.o" "gcc" "CMakeFiles/src.dir/thread.c.o.d"
   )
 
 # Targets to which this target links.

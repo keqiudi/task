@@ -28,8 +28,8 @@ extern "C"{
 
 
 
-char Server_file_path[256];
-char Client_file_path[256];
+char Server_file_path[64];//服务端接收文件路径
+char Client_file_path[64];//客户端发送文件路径
 
 
 

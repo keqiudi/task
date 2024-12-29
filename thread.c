@@ -31,29 +31,29 @@ pthread_t thread_id[4];
 int thread_create()
 {
 
-    // // 创建tcp服务器线程
-    // if (pthread_create(&thread_id[1], NULL, (void *(*)(void *))g_mapTh2Hnd[0].thread_Handler, NULL) != 0) {
-    //     perror("Server thread creation failed");
-    //     return -1;
-    // }
-    //
-    // // 创建tcp客户端线程
-    // if (pthread_create(&thread_id[2], NULL, (void *(*)(void *))g_mapTh2Hnd[1].thread_Handler, NULL) != 0) {
-    //     perror("Client thread creation failed");
-    //     return -1;
-    // }
-
-    // 创建udp服务器线程
-    if (pthread_create(&thread_id[3], NULL, (void *(*)(void *))g_mapTh2Hnd[2].thread_Handler, NULL) != 0) {
+    // 创建tcp服务器线程
+    if (pthread_create(&thread_id[1], NULL, (void *(*)(void *))g_mapTh2Hnd[0].thread_Handler, NULL) != 0) {
         perror("Server thread creation failed");
         return -1;
     }
 
-    // 创建udp客户端线程
-    if (pthread_create(&thread_id[4], NULL, (void *(*)(void *))g_mapTh2Hnd[3].thread_Handler, NULL) != 0) {
+    // 创建tcp客户端线程
+    if (pthread_create(&thread_id[2], NULL, (void *(*)(void *))g_mapTh2Hnd[1].thread_Handler, NULL) != 0) {
         perror("Client thread creation failed");
         return -1;
     }
+
+    // // 创建udp服务器线程
+    // if (pthread_create(&thread_id[3], NULL, (void *(*)(void *))g_mapTh2Hnd[2].thread_Handler, NULL) != 0) {
+    //     perror("Server thread creation failed");
+    //     return -1;
+    // }
+    //
+    // // 创建udp客户端线程
+    // if (pthread_create(&thread_id[4], NULL, (void *(*)(void *))g_mapTh2Hnd[3].thread_Handler, NULL) != 0) {
+    //     perror("Client thread creation failed");
+    //     return -1;
+    // }
 
 	return 0;
 }

@@ -25,13 +25,13 @@ extern "C"{
 #define PORT 8080
 #define BUFFER_SIZE 1024
 
-extern char Server_file_path[256];
-extern char Client_file_path[256];
+extern char Server_file_path[64];
+extern char Client_file_path[64];
 
 int tcp_server()
 {
 
-	printf("server start\n");
+	printf("tcp server start\n");
 	int server_fd, connect_fd;
 	struct sockaddr_in address;
 	struct sockaddr_in clientAddr;
@@ -70,13 +70,13 @@ int tcp_server()
 			exit(EXIT_FAILURE);
 		}
 
-		printf("Server connected. Waiting for file...\n");
+		printf("服务器连接客户端成功.等待文件...\n");
 
 
 		// 保存到指定路径，指定文件名
 		file_fd = open(Server_file_path, O_WRONLY | O_CREAT, 0644);
 		if (file_fd == -1) {
-			perror("File open failed");
+			perror("文件接收出错!");
 			exit(EXIT_FAILURE);
 		}
 
@@ -85,33 +85,38 @@ int tcp_server()
 		{
 			if(write(file_fd, buffer, bytes_received)==bytes_received)
 			{
-				printf("File received successfully.\n");
+				printf("服务器文件接收成功!\n");
 			}
 			else
 			{
-				perror("Receive failed");
+				perror("接收出错!");
 			}
 		}
 
 		//客户端断开连接
 		if (bytes_received == 0) {
-			printf("client exit\n");
+			printf("客户端断开连接...\n");
 			close(connect_fd);//客户端退出,关闭连接
 			close(file_fd);
-		} else {
-			perror("Receive failed");
+		}
+		else
+		 {
+			perror("接收出错!/");
 			close(file_fd);
 		}
 	}
 
 	close(server_fd);
+
 	return 0;
 
 }
 
 int tcp_client()
 {
-	printf("client start\n");
+    sleep(1);//等待服务器启动
+
+	printf("tcp client start\n");
 
 	int socket_fd, file_fd;
 	struct sockaddr_in server_addr;
@@ -138,12 +143,12 @@ int tcp_client()
 		exit(EXIT_FAILURE);
 	}
 
-	printf("Connected to server. Sending file...\n");
+	printf("客户端连接服务器成功! Sending file...\n");
 
 	//打开指定路径下的文件
 	file_fd = open(Client_file_path, O_RDONLY);  // 以只读模式打开要发送的文件
 	if (file_fd == -1) {
-		perror("File open failed");
+		perror("文件不存在");
 		exit(EXIT_FAILURE);
 	}
 
@@ -152,17 +157,17 @@ int tcp_client()
 	{
 
 		if (bytes_read == -1) {
-			perror("Read file failed");
+			perror("客户端读取文件失败");
 			exit(EXIT_FAILURE);
 		}
 
 		if (send(socket_fd, buffer, bytes_read, 0) == bytes_read)
 		{
-			printf("File sent successfully.\n");
+			printf("客户端文件发送成功!\n");
 		}
 		else
 		{
-			perror("Send failed");
+			perror("客户端文件发送失败!");
 			exit(EXIT_FAILURE);
 		}
 
@@ -237,11 +242,15 @@ int udp_server()
 	close(file_fd);
 	close(server_fd);
 
+	pthread_exit(NULL);
+
 	return 0;
 }
 
 int udp_client()
 {
+    sleep(1);//等待服务器启动
+
 	printf("UDP client started\n");
 
 	int socket_fd, file_fd, bytes_read;
@@ -295,6 +304,8 @@ int udp_client()
 	// 关闭文件和套接字
 	close(file_fd);
 	close(socket_fd);
+
+    pthread_exit(NULL);
 
 	return 0;
 }

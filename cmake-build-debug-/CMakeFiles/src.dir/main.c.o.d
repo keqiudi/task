@@ -1,4 +1,4 @@
-CMakeFiles/src.dir/main.c.o: /tmp/tmp.n1yQUF55fr/main.c \
+CMakeFiles/src.dir/main.c.o: /home/keqiudi/myProject/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -93,4 +93,4 @@ CMakeFiles/src.dir/main.c.o: /tmp/tmp.n1yQUF55fr/main.c \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /tmp/tmp.n1yQUF55fr/main.h /tmp/tmp.n1yQUF55fr/main_core.h
+ /home/keqiudi/myProject/main.h /home/keqiudi/myProject/main_core.h

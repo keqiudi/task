@@ -1,5 +1,5 @@
-CMakeFiles/src.dir/thread.c.o: /tmp/tmp.n1yQUF55fr/thread.c \
- /usr/include/stdc-predef.h /tmp/tmp.n1yQUF55fr/thread.h \
+CMakeFiles/src.dir/thread.c.o: /home/keqiudi/myProject/thread.c \
+ /usr/include/stdc-predef.h /home/keqiudi/myProject/thread.h \
  /usr/include/pthread.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -50,4 +50,4 @@ CMakeFiles/src.dir/thread.c.o: /tmp/tmp.n1yQUF55fr/thread.c \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /tmp/tmp.n1yQUF55fr/socket.h
+ /home/keqiudi/myProject/socket.h

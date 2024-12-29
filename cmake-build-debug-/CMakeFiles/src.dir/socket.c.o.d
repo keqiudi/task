@@ -1,4 +1,4 @@
-CMakeFiles/src.dir/socket.c.o: /tmp/tmp.n1yQUF55fr/socket.c \
+CMakeFiles/src.dir/socket.c.o: /home/keqiudi/myProject/socket.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -39,8 +39,8 @@ CMakeFiles/src.dir/socket.c.o: /tmp/tmp.n1yQUF55fr/socket.c \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /tmp/tmp.n1yQUF55fr/thread.h /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /home/keqiudi/myProject/thread.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
  /usr/include/x86_64-linux-gnu/bits/time.h \

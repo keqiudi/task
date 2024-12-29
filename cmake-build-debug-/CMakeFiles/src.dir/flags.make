@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/tmp/tmp.n1yQUF55fr/.
+C_INCLUDES = -I/home/keqiudi/myProject/.
 
 C_FLAGS = -g -std=gnu11
 

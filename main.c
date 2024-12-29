@@ -28,7 +28,7 @@ int main_process()
 {
 	while(1)
 	{
-        sleep(5);//模拟主进程有对应操作
+        sleep(5);//模拟父进程有对应操作
     }
 
 	

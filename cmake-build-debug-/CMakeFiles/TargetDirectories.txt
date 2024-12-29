@@ -1,3 +1,3 @@
-/tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles/src.dir
-/tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles/edit_cache.dir
-/tmp/tmp.n1yQUF55fr/cmake-build-debug-/CMakeFiles/rebuild_cache.dir
+/home/keqiudi/myProject/cmake-build-debug-/CMakeFiles/src.dir
+/home/keqiudi/myProject/cmake-build-debug-/CMakeFiles/edit_cache.dir
+/home/keqiudi/myProject/cmake-build-debug-/CMakeFiles/rebuild_cache.dir

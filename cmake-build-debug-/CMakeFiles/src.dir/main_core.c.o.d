@@ -1,4 +1,4 @@
-CMakeFiles/src.dir/main_core.c.o: /tmp/tmp.n1yQUF55fr/main_core.c \
+CMakeFiles/src.dir/main_core.c.o: /home/keqiudi/myProject/main_core.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -65,4 +65,4 @@ CMakeFiles/src.dir/main_core.c.o: /tmp/tmp.n1yQUF55fr/main_core.c \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
- /tmp/tmp.n1yQUF55fr/main_core.h /tmp/tmp.n1yQUF55fr/thread.h
+ /home/keqiudi/myProject/main_core.h /home/keqiudi/myProject/thread.h
